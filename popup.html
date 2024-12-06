@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>文本翻译器</title>
+  <style>
+    body {
+      width: 300px;
+      padding: 10px;
+      font-family: Arial, sans-serif;
+    }
+    button {
+      margin-top: 10px;
+      padding: 8px 16px;
+      border-radius: 4px;
+      border: none;
+      cursor: pointer;
+      font-size: 14px;
+      width: 100%;
+      transition: all 0.3s ease;
+    }
+    button.enabled {
+      background-color: #e74c3c;
+      color: white;
+    }
+    button.disabled {
+      background-color: #2ecc71;
+      color: white;
+    }
+    h2 {
+      margin-top: 0;
+      color: #333;
+    }
+    p {
+      color: #666;
+      font-size: 14px;
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+<body>
+  <h2>文本翻译器</h2>
+  <p>双击任意文本即可翻译成中文</p>
+  <button id="toggleTranslation">切换翻译</button>
+  <script src="/popup.js"></script>
+</body>
+</html>
